@@ -1,0 +1,123 @@
+.contCuadro_A{
+  width: 100%;
+  height: 100%;
+  background:#e28525;
+  padding: 40px 30px;
+  .contLogo{
+      width: 70px;
+      height: 50px;
+      background-image: url(../images/icon-sedans.svg);
+      background-size: 100% 100%;
+  }
+  .title{
+      margin-top: 20px;
+      font-family: 'Big Shoulders Display', cursive;
+      color: white;
+      font-weight: 700;
+  }
+  .parrafo{
+       margin-top: 20px;
+       font-family: 'Lexend Deca', sans-serif;
+       font-weight: 400;
+       color: white;
+  }
+  .button_A{
+      margin-top: 50px;
+      border-radius: 30px;
+      width: 120px;
+      padding:10px;
+      background: white;
+      color: #e28525;
+      border: none;
+      font-family: 'Lexend Deca', sans-serif;
+      font-weight: 400;
+  }
+}
+
+
+.contCuadro_B{
+    width: 100%;
+    height: 100%;
+    background: #016974;
+    padding: 40px 30px;
+   
+    .contLogo{
+        width: 70px;
+        height: 50px;
+        background-image: url(../images/icon-suvs.svg);
+        background-size: 100% 100%;
+    }
+    .title{
+        margin-top: 20px;
+        font-family: 'Big Shoulders Display', cursive;
+        color: white;
+        font-weight: 700;
+    }
+    .parrafo{
+        margin-top: 20px;
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+        color: white;
+   }
+   .button_B{
+    margin-top: 50px;
+    border-radius: 30px;
+    width: 120px;
+    padding:10px;
+    background: white;
+    color: #016974;
+    border: none;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+}
+
+
+.contCuadro_C{
+    width: 100%;
+    height: 100%;
+    background: #02403f;
+    padding: 40px 30px;
+   
+    .contLogo{
+        width: 70px;
+        height: 50px;
+        background-image: url(../images/icon-luxury.svg);
+        background-size: 100% 100%;    
+    }
+    .title{
+        margin-top: 20px;
+        font-family: 'Big Shoulders Display', cursive;
+        color: white;
+        font-weight: 700;
+    }
+    .parrafo{
+        margin-top: 20px;
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+        color: white;
+   }
+   .button_C{
+    margin-top: 50px;
+    border-radius: 30px;
+    width: 120px;
+    padding:10px;
+    background: white;
+    color: #02403f;
+    border: none;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+}
+
+
+
+
+
+
+@media (min-width:320px) and (max-width:423px){
+    .contCuadro_A{
+        width:100%;
+        
+    }
+}

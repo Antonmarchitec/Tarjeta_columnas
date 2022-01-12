@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.CONTAINER_BASE {
+  width: 100%;
+  max-width: 1440px;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CONTAINER_BASE .CONT_GRID {
+  width: 800px;
+  height: 400px;
+  background: rgba(95, 158, 160, 0.384);
+  margin: auto;
+  overflow: hidden;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "CUADRO_A    CUADRO_B    CUADRO_C";
+}
+.CONTAINER_BASE .CONT_GRID .CUADRO_A {
+  background: crimson;
+  grid-area: CUADRO_A;
+}
+.CONTAINER_BASE .CONT_GRID .CUADRO_B {
+  background: crimson;
+  grid-area: CUADRO_B;
+}
+.CONTAINER_BASE .CONT_GRID .CUADRO_C {
+  background: crimson;
+  grid-area: CUADRO_C;
+}
+
+@media (min-width: 320px) and (max-width: 423px) {
+  .CONTAINER_BASE {
+    width: 100%;
+    max-width: 1440px;
+    height: 100vh;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .CONTAINER_BASE .CONT_GRID {
+    width: 90%;
+    height: auto;
+    background: rgba(18, 43, 44, 0.685);
+    margin: auto;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "CUADRO_A" "CUADRO_B" "CUADRO_C";
+  }
+  .CONTAINER_BASE .CONT_GRID .CUADRO_A {
+    background: crimson;
+    grid-area: CUADRO_A;
+  }
+  .CONTAINER_BASE .CONT_GRID .CUADRO_B {
+    background: crimson;
+    grid-area: CUADRO_B;
+  }
+  .CONTAINER_BASE .CONT_GRID .CUADRO_C {
+    background: crimson;
+    grid-area: CUADRO_C;
+  }
+}
+.contCuadro_A {
+  width: 100%;
+  height: 100%;
+  background: #e28525;
+  padding: 40px 30px;
+}
+.contCuadro_A .contLogo {
+  width: 70px;
+  height: 50px;
+  background-image: url(../images/icon-sedans.svg);
+  background-size: 100% 100%;
+}
+.contCuadro_A .title {
+  margin-top: 20px;
+  font-family: "Big Shoulders Display", cursive;
+  color: white;
+  font-weight: 700;
+}
+.contCuadro_A .parrafo {
+  margin-top: 20px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+.contCuadro_A .button_A {
+  margin-top: 50px;
+  border-radius: 30px;
+  width: 120px;
+  padding: 10px;
+  background: white;
+  color: #e28525;
+  border: none;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
+.contCuadro_B {
+  width: 100%;
+  height: 100%;
+  background: #016974;
+  padding: 40px 30px;
+}
+.contCuadro_B .contLogo {
+  width: 70px;
+  height: 50px;
+  background-image: url(../images/icon-suvs.svg);
+  background-size: 100% 100%;
+}
+.contCuadro_B .title {
+  margin-top: 20px;
+  font-family: "Big Shoulders Display", cursive;
+  color: white;
+  font-weight: 700;
+}
+.contCuadro_B .parrafo {
+  margin-top: 20px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+.contCuadro_B .button_B {
+  margin-top: 50px;
+  border-radius: 30px;
+  width: 120px;
+  padding: 10px;
+  background: white;
+  color: #016974;
+  border: none;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
+.contCuadro_C {
+  width: 100%;
+  height: 100%;
+  background: #02403f;
+  padding: 40px 30px;
+}
+.contCuadro_C .contLogo {
+  width: 70px;
+  height: 50px;
+  background-image: url(../images/icon-luxury.svg);
+  background-size: 100% 100%;
+}
+.contCuadro_C .title {
+  margin-top: 20px;
+  font-family: "Big Shoulders Display", cursive;
+  color: white;
+  font-weight: 700;
+}
+.contCuadro_C .parrafo {
+  margin-top: 20px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+.contCuadro_C .button_C {
+  margin-top: 50px;
+  border-radius: 30px;
+  width: 120px;
+  padding: 10px;
+  background: white;
+  color: #02403f;
+  border: none;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
+@media (min-width: 320px) and (max-width: 423px) {
+  .contCuadro_A {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

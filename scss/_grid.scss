@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    //font-family: 'Lexend Deca', sans-serif;
+    //font-family: 'Big Shoulders Display', cursive;
+    //font-family: 'Lexend Deca', sans-serif;
+}
+
+.CONTAINER_BASE{
+    width: 100%;
+    max-width: 1440px;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .CONT_GRID{
+        width: 800px;
+        height: 400px;
+        background: rgba(95, 158, 160, 0.384);
+        margin: auto;
+        overflow: hidden;
+        border-radius: 10px;
+        display: grid;
+        //gap:1px;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+        grid-template-areas: "CUADRO_A    CUADRO_B    CUADRO_C";
+        .CUADRO_A{
+            background: crimson;
+            //padding: 3px 0px;
+            grid-area: CUADRO_A;
+        }
+        .CUADRO_B{
+            background: crimson;
+            //padding: 3px 0px;
+            grid-area: CUADRO_B;
+        }
+        .CUADRO_C{
+            background: crimson;
+            //padding: 3px 0px;
+            grid-area: CUADRO_C;
+        }
+    }
+}
+
+
+
+
+@media (min-width:320px) and (max-width:423px){
+   
+.CONTAINER_BASE{
+    width: 100%;
+    max-width: 1440px;
+    height: 100vh;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .CONT_GRID{
+        width: 90%;
+        height: auto;
+        background: rgba(18, 43, 44, 0.685);
+        margin: auto;
+        //overflow: hidden;
+        border-radius: 10px;
+        display: grid;
+        //gap:1px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: "CUADRO_A"    
+                             "CUADRO_B"
+                             "CUADRO_C";
+        .CUADRO_A{
+            background: crimson;
+            //padding: 3px 0px;
+            grid-area: CUADRO_A;
+        }
+        .CUADRO_B{
+            background: crimson;
+            //padding: 3px 0px;
+            grid-area: CUADRO_B;
+        }
+        .CUADRO_C{
+            background: crimson;
+            //padding: 3px 0px;
+            grid-area: CUADRO_C;
+        }
+    }
+}
+
+    
+}

@@ -94,12 +94,13 @@
 }
 .contCuadro_A .parrafo {
   margin-top: 20px;
+  height: 130px;
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
   color: white;
 }
 .contCuadro_A .button_A {
-  margin-top: 50px;
+  margin-top: 30px;
   border-radius: 30px;
   width: 120px;
   padding: 10px;
@@ -130,12 +131,13 @@
 }
 .contCuadro_B .parrafo {
   margin-top: 20px;
+  height: 130px;
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
   color: white;
 }
 .contCuadro_B .button_B {
-  margin-top: 50px;
+  margin-top: 30px;
   border-radius: 30px;
   width: 120px;
   padding: 10px;
@@ -166,12 +168,13 @@
 }
 .contCuadro_C .parrafo {
   margin-top: 20px;
+  height: 130px;
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
   color: white;
 }
 .contCuadro_C .button_C {
-  margin-top: 50px;
+  margin-top: 30px;
   border-radius: 30px;
   width: 120px;
   padding: 10px;

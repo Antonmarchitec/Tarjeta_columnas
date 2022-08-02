@@ -109,6 +109,12 @@
   border: none;
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
+  transition: 0.5s all;
+}
+.contCuadro_A .button_A:hover {
+  background: #fc9e41;
+  color: white;
+  cursor: pointer;
 }
 
 .contCuadro_B {
@@ -146,6 +152,12 @@
   border: none;
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
+  transition: 0.5s all;
+}
+.contCuadro_B .button_B:hover {
+  background: #238d99;
+  color: white;
+  cursor: pointer;
 }
 
 .contCuadro_C {
@@ -183,6 +195,12 @@
   border: none;
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
+  transition: 0.5s all;
+}
+.contCuadro_C .button_C:hover {
+  background: #086968;
+  color: white;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */

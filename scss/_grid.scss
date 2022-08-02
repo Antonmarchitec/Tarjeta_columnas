@@ -21,7 +21,6 @@
     .CONT_GRID{
         width: 800px;
         height: 400px;
-        background: rgba(95, 158, 160, 0.384);
         margin: auto;
         overflow: hidden;
         border-radius: 10px;
@@ -56,16 +55,16 @@
 .CONTAINER_BASE{
     width: 100%;
     max-width: 1440px;
-    height: 100vh;
-    margin: 50px auto;
+    height: initial;
+    margin: 100px auto;
     display: flex;
     justify-content: center;
     align-items: center;
     .CONT_GRID{
         width: 90%;
-        height: auto;
-        background: rgba(18, 43, 44, 0.685);
-        margin: auto;
+        height: initial;
+        padding: 0px;
+        background: rgba(47, 187, 192, 0.685);
         //overflow: hidden;
         border-radius: 10px;
         display: grid;
@@ -76,19 +75,23 @@
                              "CUADRO_B"
                              "CUADRO_C";
         .CUADRO_A{
-            background: crimson;
+            //background: crimson;
             //padding: 3px 0px;
             grid-area: CUADRO_A;
+            border-radius: 10px 10px 0px 0px;
+            overflow: hidden;
         }
         .CUADRO_B{
-            background: crimson;
+            //background: crimson;
             //padding: 3px 0px;
             grid-area: CUADRO_B;
         }
         .CUADRO_C{
-            background: crimson;
+            //background: crimson;
             //padding: 3px 0px;
             grid-area: CUADRO_C;
+            border-radius: 0px 0px 10px 10px;
+            overflow: hidden;
         }
     }
 }
